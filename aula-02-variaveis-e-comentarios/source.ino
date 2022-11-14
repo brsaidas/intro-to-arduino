@@ -4,10 +4,10 @@ float c = 10.5;
 double d = 19.56;
 
 void setup() {
-	Serial.begin(9600);
+  Serial.begin(9600);
 }
 
 void loop() {
-  	Serial.print("a = ");
-  	Serial.println(a);
+  Serial.print("a = ");
+  Serial.println(a);
 }
